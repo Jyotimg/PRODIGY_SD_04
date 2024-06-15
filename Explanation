@@ -1,0 +1,12 @@
+Explanation
+print_board(board): This function prints the Sudoku board in a readable format.
+find_empty(board): This function finds the next empty cell in the Sudoku board.
+is_valid(board, num, pos): This function checks if placing a number in a specific position is valid according to Sudoku rules.
+solve(board): This function uses backtracking to solve the Sudoku puzzle. It finds an empty cell, tries all possible numbers, and recursively attempts to solve the board. If a number doesn't lead to a solution, it backtracks and tries the next number.
+
+
+How to Use
+The Sudoku puzzle is represented by a 9x9 grid where 0 represents an empty cell.
+The solve function will attempt to solve the puzzle.
+The result is printed out, showing the completed Sudoku grid.
+You can modify the board variable to test with different Sudoku puzzles.
